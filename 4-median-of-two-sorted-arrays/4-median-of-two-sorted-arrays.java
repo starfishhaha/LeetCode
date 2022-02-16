@@ -27,13 +27,14 @@ class Solution {
 /* 分割两个array 确保 array1 左边的值一定下雨 array2 右边的值 （a2 左 < a1 右边）
     同时 左边的数量 等于 右边
     
-array1 = x1 x2 x3 / x4 x5 x6 
+    因为 a1 a2 都是sorted 所以 x2 < x3 && y5< y6
+array1 = x1 x2 / x3 x4 x5 x6 
 
-array2 = y1 y2 y3 y4 / y5 y6 y7 y8
+array2 = y1 y2 y3 y4 y5 / y6 y7 y8
     
     
-x3 < y5 && y4 < x4
-左边 3 + 4 = 右边 3 + 4
+x2 < y6 && y5 < x3
+左边 2 + 5 = 右边 4 + 3
     
     
 */
